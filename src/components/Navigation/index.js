@@ -1,28 +1,12 @@
 import React from "react";
 
-function Navigation() {
-  return (
-    <nav className='navbar is-transparent'>
-      <div className='container'>
-        <div className='navbar-brand'>
-          <a className='navbar-item' href='/'>
-            Tom Bellenger
-          </a>
-          <div
-            className='navbar-burger burger'
-            data-target='navbarExampleTransparentExample'
-          ></div>
-        </div>
+function Navigation(props) {
+  const { linkDetails } = props;
 
-        <div id='navbarExampleTransparentExample' className='navbar-menu'>
-          <div className='navbar-start'>
-            <a className='navbar-item' href='#Home'>
-              Home
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
+  return (
+    <a className='nav-link' href={linkDetails.link}>
+      {linkDetails.name}
+    </a>
   );
 }
 
