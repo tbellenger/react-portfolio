@@ -22,7 +22,7 @@ export default function Portfolio() {
       link: "https://tbellenger.github.io/BoltHoles",
       ghLink: "https://github.com/tbellenger/Boltholes",
       image: "BoltHoles.jpg",
-      tech: "HTML/CSS/JavaScript/Heroku",
+      tech: "HTML/CSS/JavaScript",
     },
   ];
 
