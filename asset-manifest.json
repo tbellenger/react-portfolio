@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7b217960.css",
+    "main.js": "/react-portfolio/static/js/main.6df0034a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/header.jpg": "/react-portfolio/static/media/header.ddd6450a9b4cce8b22ac.jpg",
+    "static/media/Pregame-Screenshot.png": "/react-portfolio/static/media/Pregame-Screenshot.4946fe889762f641b71d.png",
+    "static/media/fixup.png": "/react-portfolio/static/media/fixup.518d8ee633889a267cc2.png",
+    "static/media/pregame.jpg": "/react-portfolio/static/media/pregame.96dc5ba812192b06a1eb.jpg",
+    "static/media/camper-life.jpg": "/react-portfolio/static/media/camper-life.52d615f5cfda664c24ff.jpg",
+    "static/media/CV-JUN-2021.pdf": "/react-portfolio/static/media/CV-JUN-2021.a99c966e05dfe6f9f5c0.pdf",
+    "static/media/BoltHoles.jpg": "/react-portfolio/static/media/BoltHoles.b7369f9129b3382fc7c5.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.7b217960.css.map": "/react-portfolio/static/css/main.7b217960.css.map",
+    "main.6df0034a.js.map": "/react-portfolio/static/js/main.6df0034a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b217960.css",
+    "static/js/main.6df0034a.js"
+  ]
+}
