@@ -18,6 +18,10 @@
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+.header-title {
+  color: beige !important;
+}
+
 .selected {
   border-top: 1px white solid;
   border-bottom: 1px white solid;
@@ -67,3 +71,10 @@ img {
 .project {
   position: relative;
 }
+
+/* .footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+} */

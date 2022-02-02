@@ -36,7 +36,9 @@ function App() {
   }
 
   return (
-    <>
+    <div
+      style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
+    >
       <Header
         navLinkDetails={navLinkDetails}
         displayContent={displayContent}
@@ -47,7 +49,7 @@ function App() {
       {currentContent === 2 && <Contact />}
       {currentContent === 3 && <Resume />}
       <Footer />
-    </>
+    </div>
   );
 }
 

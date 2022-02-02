@@ -5,7 +5,7 @@ function Header({ navLinkDetails, selected, displayContent }) {
   return (
     <nav className='header navbar navbar-expand-lg navbar-dark'>
       <div className='container-fluid'>
-        <a className='navbar-brand fs-1' href='/'>
+        <a className='navbar-brand fs-1 header-title' href='./'>
           Tom Bellenger
         </a>
         <button
