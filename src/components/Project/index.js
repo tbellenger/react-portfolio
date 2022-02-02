@@ -1,5 +1,18 @@
 import React from "react";
-import ghLogo from "../../assets/images/gh.svg";
+import {
+  DiBootstrap,
+  DiHtml5,
+  DiCss3,
+  DiGithubBadge,
+  DiAws,
+  DiReact,
+  DiDatabase,
+  DiJavascript,
+  DiNodejs,
+  DiNpm,
+  DiHeroku,
+} from "react-icons/di";
+import { FaSpotify, FaStripe, FaLinkedin } from "react-icons/fa";
 
 function Project({ projectDetails }) {
   return (
@@ -7,7 +20,7 @@ function Project({ projectDetails }) {
       <div className='label'>
         <div className='label-data'>
           <a
-            className='project-link text-light fs-3 text-decoration-none m-2'
+            className='project-link text-light fs-4 text-decoration-none m-2'
             href={projectDetails.link}
           >
             {projectDetails.title}
@@ -16,13 +29,43 @@ function Project({ projectDetails }) {
             className='github-link text-light m-2'
             href={projectDetails.ghLink}
           >
-            <img
-              alt='github'
-              src={ghLogo}
-              style={{ width: "32px", height: "32px" }}
-            />
+            <DiGithubBadge size={28} />
           </a>
-          <p className='project-tech text-light'>{projectDetails.tech}</p>
+          <p className='project-tech text-light'>
+            {projectDetails.tech.indexOf("HTML") !== -1 && (
+              <DiHtml5 size={28} />
+            )}
+            {projectDetails.tech.indexOf("CSS") !== -1 && <DiCss3 size={28} />}
+            {projectDetails.tech.indexOf("JavaScript") !== -1 && (
+              <DiJavascript size={28} />
+            )}
+            {projectDetails.tech.indexOf("Bootstrap") !== -1 && (
+              <DiBootstrap size={28} />
+            )}
+            {projectDetails.tech.indexOf("AWS") !== -1 && <DiAws size={28} />}
+            {projectDetails.tech.indexOf("Database") !== -1 && (
+              <DiDatabase size={28} />
+            )}
+            {projectDetails.tech.indexOf("Node") !== -1 && (
+              <DiNodejs size={28} />
+            )}
+            {projectDetails.tech.indexOf("Npm") !== -1 && <DiNpm size={28} />}
+            {projectDetails.tech.indexOf("Heroku") !== -1 && (
+              <DiHeroku size={28} />
+            )}
+            {projectDetails.tech.indexOf("Spotify") !== -1 && (
+              <FaSpotify size={28} />
+            )}
+            {projectDetails.tech.indexOf("Stripe") !== -1 && (
+              <FaStripe size={28} />
+            )}
+            {projectDetails.tech.indexOf("React") !== -1 && (
+              <DiReact size={28} />
+            )}
+            {projectDetails.tech.indexOf("Linkedin") !== -1 && (
+              <FaLinkedin size={28} />
+            )}
+          </p>
         </div>
       </div>
       <img

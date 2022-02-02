@@ -8,21 +8,21 @@ export default function Portfolio() {
       link: "https://fixup-job.herokuapp.com",
       ghLink: "https://github.com/tbellenger/fixup-job-site-full-stack",
       image: "fixup.png",
-      tech: "HTML/Bulma/JavaScript/AWS/JWT",
+      tech: "HTML/CSS/Bootstrap/Node/Npm/JavaScript/AWS/Database/Heroku",
     },
     {
       title: "Pregame",
       link: "https://tbellenger.github.io/playlist",
       ghLink: "https://github.com/tbellenger/playlist",
       image: "pregame.jpg",
-      tech: "HTML/CSS/JavaScript/OAuth2.0",
+      tech: "HTML/CSS/JavaScript/Spotify",
     },
     {
       title: "Bolt Hole Calculator",
       link: "https://tbellenger.github.io/BoltHoles",
       ghLink: "https://github.com/tbellenger/Boltholes",
       image: "BoltHoles.jpg",
-      tech: "HTML/CSS/JavaScript/SVG/PWA",
+      tech: "HTML/CSS/JavaScript/Heroku",
     },
   ];
 

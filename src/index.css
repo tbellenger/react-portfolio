@@ -8,13 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   text-shadow: 0 0 2px black;
-  color: beige !important;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -22,9 +16,17 @@
   color: beige !important;
 }
 
+.nav-link {
+  color: beige !important;
+}
+
+.nav-link:hover {
+  color: gainsboro !important;
+}
+
 .selected {
-  border-top: 1px white solid;
-  border-bottom: 1px white solid;
+  border-top: 1px beige solid;
+  border-bottom: 1px beige solid;
 }
 
 .label h3 {

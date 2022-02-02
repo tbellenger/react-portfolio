@@ -4,8 +4,8 @@ export default function Resume() {
   return (
     <div className='section row my-1 mx-3'>
       <span className='gutter col-sm-12 col-md-2'></span>
-      <div className='section-cta col-sm-12 col-md-8'>
-        <div className='resume'>
+      <div className='section-cta card mt-1 col-sm-12 col-md-8'>
+        <div className='resume card-panel pt-1'>
           <iframe
             title='Resume'
             src={require("../../assets/docs/CV-JUN-2021.pdf")}

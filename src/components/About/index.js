@@ -4,10 +4,10 @@ export default function About() {
   return (
     <div className='section row my-1 mx-3'>
       <span className='gutter col-sm-12 col-md-2'></span>
-      <div className='section-cta col-sm-12 col-md-8'>
-        <div className='about'>
+      <div className='section-cta card mt-1 col-sm-12 col-md-8'>
+        <div className='about card-panel'>
           <img
-            className='avatar img-thumbnail'
+            className='avatar img-thumbnail mt-2'
             alt='Avatar'
             src={require("../../assets/images/camper-life.jpg")}
           ></img>

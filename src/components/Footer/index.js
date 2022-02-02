@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className='footer mt-auto pt-3 bg-light text-center text-lg-start'>
       <div
-        className='text-center p-3'
+        className='text-center p-2'
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2020 Copyright:&nbsp;

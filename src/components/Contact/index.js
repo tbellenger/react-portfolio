@@ -43,8 +43,8 @@ function ContactForm() {
   return (
     <div className='section row my-1 mx-3'>
       <span className='gutter col-sm-12 col-md-2'></span>
-      <div className='section-cta col-sm-12 col-md-8'>
-        <div className='contact'>
+      <div className='section-cta card mt-1 col-sm-12 col-md-8'>
+        <div className='contact card-body'>
           <form id='contact-form' onSubmit={handleSubmit}>
             <div className='form-group'>
               <label htmlFor='name'>Name:</label>

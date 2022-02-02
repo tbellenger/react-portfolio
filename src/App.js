@@ -37,6 +37,7 @@ function App() {
 
   return (
     <div
+      className='bg-light'
       style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
     >
       <Header
