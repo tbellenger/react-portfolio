@@ -42,7 +42,7 @@ export default function Portfolio() {
       title: "Placeholder",
       link: "https://tbellenger.github.io/react-portfolio",
       ghLink: "https://github.com/tbellenger/",
-      image: "https://via.placeholder.com/300",
+      image: "placeholder.webp",
       tech: "HTML/CSS/JavaScript/",
     },
   ];
