@@ -27,18 +27,6 @@
   border-bottom: 1px white solid;
 }
 
-/* card title text with ribbon transition on title */
-/* .label {
-  position: absolute;
-  top: 15px;
-  left: 0px;
-  background-color: rgba(60, 60, 60, 0.8);
-  color: #fffcf2;
-  border: 2px solid rgba(20, 20, 20, 0.8);
-  border-radius: 0 10px 10px 0;
-  transition: 0.3s;
-} */
-
 .label h3 {
   padding: 5px 15px 0 15px;
   font-size: 24px;
@@ -73,17 +61,13 @@
 
 .label-data {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  left: 20px;
 }
 
 .label-data a {
   position: relative;
 }
-
-/* .label-data a:hover {
-  color: #000;
-} */
 
 .label-data a::before {
   content: "";
