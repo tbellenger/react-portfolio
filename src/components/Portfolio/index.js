@@ -6,7 +6,7 @@ export default function Portfolio() {
     {
       title: "fixUp",
       link: "https://fixup-job.herokuapp.com",
-      ghLink: "https://github.com/tbellenger/fixup-job",
+      ghLink: "https://github.com/tbellenger/fixup-job-site-full-stack",
       image: "fixup.png",
       tech: "HTML/Bulma/JavaScript/AWS/JWT",
     },
@@ -19,7 +19,7 @@ export default function Portfolio() {
     },
     {
       title: "Bolt Hole Calculator",
-      link: "https://tbellenger.github.io/Boltholes",
+      link: "https://tbellenger.github.io/BoltHoles",
       ghLink: "https://github.com/tbellenger/Boltholes",
       image: "BoltHoles.jpg",
       tech: "HTML/CSS/JavaScript/SVG/PWA",

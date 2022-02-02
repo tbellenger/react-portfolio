@@ -82,7 +82,7 @@ function ContactForm() {
               </div>
             )}
             <button
-              className='btn btn-primary mt-1'
+              className='btn btn-light mt-1'
               data-testid='button'
               type='submit'
             >
