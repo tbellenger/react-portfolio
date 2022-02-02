@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.89e7b02a.css",
-    "main.js": "/react-portfolio/static/js/main.f81e02a7.js",
+    "main.css": "/react-portfolio/static/css/main.4fcab631.css",
+    "main.js": "/react-portfolio/static/js/main.89d6b38f.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/header.jpg": "/react-portfolio/static/media/header.ddd6450a9b4cce8b22ac.jpg",
     "static/media/Pregame-Screenshot.png": "/react-portfolio/static/media/Pregame-Screenshot.4946fe889762f641b71d.png",
+    "static/media/header.jpg": "/react-portfolio/static/media/header.2e24203b83020e0e9a19.jpg",
     "static/media/fixup.png": "/react-portfolio/static/media/fixup.518d8ee633889a267cc2.png",
     "static/media/pregame.jpg": "/react-portfolio/static/media/pregame.96dc5ba812192b06a1eb.jpg",
     "static/media/camper-life.jpg": "/react-portfolio/static/media/camper-life.52d615f5cfda664c24ff.jpg",
@@ -12,12 +12,12 @@
     "static/media/BoltHoles.jpg": "/react-portfolio/static/media/BoltHoles.b7369f9129b3382fc7c5.jpg",
     "static/media/gh.svg": "/react-portfolio/static/media/gh.5025620f12a7fcf21540556ff1ad8586.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.89e7b02a.css.map": "/react-portfolio/static/css/main.89e7b02a.css.map",
-    "main.f81e02a7.js.map": "/react-portfolio/static/js/main.f81e02a7.js.map",
+    "main.4fcab631.css.map": "/react-portfolio/static/css/main.4fcab631.css.map",
+    "main.89d6b38f.js.map": "/react-portfolio/static/js/main.89d6b38f.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89e7b02a.css",
-    "static/js/main.f81e02a7.js"
+    "static/css/main.4fcab631.css",
+    "static/js/main.89d6b38f.js"
   ]
 }
