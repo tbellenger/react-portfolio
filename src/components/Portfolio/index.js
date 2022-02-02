@@ -24,6 +24,27 @@ export default function Portfolio() {
       image: "BoltHoles.jpg",
       tech: "HTML/CSS/JavaScript",
     },
+    {
+      title: "Tic Tac Toe Game",
+      link: "https://iron-pacific-oxygen.herokuapp.com/",
+      ghLink: "https://github.com/tbellenger/tictactoe-websocket",
+      image: "tictactoe.jpg",
+      tech: "HTML/CSS/JavaScript/Node/Npm/Heroku",
+    },
+    {
+      title: "Sorting Visualizer",
+      link: "https://tbellenger.github.io/sorting-visualizer/sortviz/",
+      ghLink: "https://github.com/tbellenger/sorting-visualizer/",
+      image: "sortviz.jpg",
+      tech: "HTML/CSS/JavaScript/",
+    },
+    {
+      title: "Placeholder",
+      link: "https://tbellenger.github.io/react-portfolio",
+      ghLink: "https://github.com/tbellenger/",
+      image: "https://via.placeholder.com/300",
+      tech: "HTML/CSS/JavaScript/",
+    },
   ];
 
   return (
