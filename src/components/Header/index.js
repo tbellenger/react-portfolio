@@ -3,9 +3,9 @@ import Navigation from "../Navigation/index.js";
 
 function Header({ navLinkDetails, selected, displayContent }) {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+    <nav className='header navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
-        <a className='navbar-brand text-3xl font-bold underline' href='/'>
+        <a className='navbar-brand fs-1' href='/'>
           Tom Bellenger
         </a>
         <button

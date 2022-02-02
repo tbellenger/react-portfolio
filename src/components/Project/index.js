@@ -1,22 +1,20 @@
 import React from "react";
 
-function Project(props) {
-  const { projectDetails } = props;
-
+function Project({ projectDetails }) {
   return (
-    <div className='project'>
-      <div className='container'>
-        <div className='content has-text-centered'>{projectDetails.title}</div>
-        <div className='image'>
-          <img src={projectDetails.image} alt={projectDetails.title} />
+    <div className='project col-sm-12 col-md-12 my-1'>
+      <a href={projectDetails.link}>
+        <div className='label'>
+          <h3>{projectDetails.title}</h3>
+          <p>HTML/Bulma/JavaScript/AWS/JWT</p>
+          <p>{projectDetails.ghLink}</p>
         </div>
-        <div className='link'>
-          <a href={projectDetails.link}>{projectDetails.link}</a>
-        </div>
-        <div className='gh-link'>
-          <a href={projectDetails.ghLink}>{projectDetails.ghLink}</a>
-        </div>
-      </div>
+        <img
+          className='img-thumbnail'
+          src={require(`../../assets/images/${projectDetails.image}`)}
+          alt={projectDetails.title}
+        />
+      </a>
     </div>
   );
 }

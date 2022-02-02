@@ -4,45 +4,36 @@ import Project from "../Project/index.js";
 function Portfolio() {
   const projects = [
     {
-      title: "Project 1",
-      link: "https://www.google.com",
-      ghLink: "https://www.google.com",
-      image: "https://via.placeholder.com/300x200",
+      title: "fixUp",
+      link: "https://fixup-job.herokuapp.com",
+      ghLink: "https://github.com/tbellenger/fixup-job",
+      image: "fixup-screenshot.png",
     },
     {
-      title: "Project 2",
-      link: "https://www.google.com",
-      ghLink: "https://www.google.com",
-      image: "https://via.placeholder.com/300x200",
+      title: "Pregame",
+      link: "https://tbellenger.github.io/playlist",
+      ghLink: "https://github.com/tbellenger/playlist",
+      image: "Pregame-Screenshot.png",
     },
     {
-      title: "Project 3",
-      link: "https://www.google.com",
-      ghLink: "https://www.google.com",
-      image: "https://via.placeholder.com/300x200",
-    },
-    {
-      title: "Project 4",
-      link: "https://www.google.com",
-      ghLink: "https://www.google.com",
-      image: "https://via.placeholder.com/300x200",
-    },
-    {
-      title: "Project 5",
-      link: "https://www.google.com",
-      ghLink: "https://www.google.com",
-      image: "https://via.placeholder.com/300x200",
+      title: "Bolt Hole Calculator",
+      link: "https://tbellenger.github.io/Boltholes",
+      ghLink: "https://github.com/tbellenger/Boltholes",
+      image: "BoltHoles.jpg",
     },
   ];
 
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <div className='projects'>
-        {projects.map((project, index) => (
-          <Project key={index} projectDetails={project} />
-        ))}
+    <div className='section row my-1 mx-3'>
+      <span className='gutter col-sm-12 col-md-2'></span>
+      <div className='section-cta col-sm-12 col-md-8'>
+        <div className='row g-0'>
+          {projects.map((project, index) => (
+            <Project key={index} projectDetails={project} />
+          ))}
+        </div>
       </div>
+      <span className='gutter col-sm-12 col-md-2'></span>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 function Navigation({ linkDetails, selected, displayContent, linkIndex }) {
   return (
     <a
-      className={`nav-link ${selected ? "selected" : ""}`}
+      className={`fs-2 nav-link ${selected ? "selected" : ""}`}
       href={linkDetails.link}
       onClick={(e) => {
         e.preventDefault();
