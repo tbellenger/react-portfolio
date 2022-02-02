@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4fcab631.css",
-    "main.js": "/react-portfolio/static/js/main.89d6b38f.js",
+    "main.css": "/react-portfolio/static/css/main.8beec63b.css",
+    "main.js": "/react-portfolio/static/js/main.5aa9b77c.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Pregame-Screenshot.png": "/react-portfolio/static/media/Pregame-Screenshot.4946fe889762f641b71d.png",
     "static/media/header.jpg": "/react-portfolio/static/media/header.2e24203b83020e0e9a19.jpg",
@@ -10,14 +10,14 @@
     "static/media/camper-life.jpg": "/react-portfolio/static/media/camper-life.52d615f5cfda664c24ff.jpg",
     "static/media/CV-JUN-2021.pdf": "/react-portfolio/static/media/CV-JUN-2021.a99c966e05dfe6f9f5c0.pdf",
     "static/media/BoltHoles.jpg": "/react-portfolio/static/media/BoltHoles.b7369f9129b3382fc7c5.jpg",
-    "static/media/gh.svg": "/react-portfolio/static/media/gh.5025620f12a7fcf21540556ff1ad8586.svg",
+    "static/media/gh.svg": "/react-portfolio/static/media/gh.5025620f12a7fcf21540.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.4fcab631.css.map": "/react-portfolio/static/css/main.4fcab631.css.map",
-    "main.89d6b38f.js.map": "/react-portfolio/static/js/main.89d6b38f.js.map",
+    "main.8beec63b.css.map": "/react-portfolio/static/css/main.8beec63b.css.map",
+    "main.5aa9b77c.js.map": "/react-portfolio/static/js/main.5aa9b77c.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fcab631.css",
-    "static/js/main.89d6b38f.js"
+    "static/css/main.8beec63b.css",
+    "static/js/main.5aa9b77c.js"
   ]
 }
