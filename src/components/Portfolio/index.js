@@ -1,25 +1,28 @@
 import React from "react";
 import Project from "../Project/index.js";
 
-function Portfolio() {
+export default function Portfolio() {
   const projects = [
     {
       title: "fixUp",
       link: "https://fixup-job.herokuapp.com",
       ghLink: "https://github.com/tbellenger/fixup-job",
-      image: "fixup-screenshot.png",
+      image: "fixup.png",
+      tech: "HTML/Bulma/JavaScript/AWS/JWT",
     },
     {
       title: "Pregame",
       link: "https://tbellenger.github.io/playlist",
       ghLink: "https://github.com/tbellenger/playlist",
-      image: "Pregame-Screenshot.png",
+      image: "pregame.jpg",
+      tech: "HTML/CSS/JavaScript/OAuth2.0",
     },
     {
       title: "Bolt Hole Calculator",
       link: "https://tbellenger.github.io/Boltholes",
       ghLink: "https://github.com/tbellenger/Boltholes",
       image: "BoltHoles.jpg",
+      tech: "HTML/CSS/JavaScript/SVG/PWA",
     },
   ];
 
@@ -37,5 +40,3 @@ function Portfolio() {
     </div>
   );
 }
-
-export default Portfolio;

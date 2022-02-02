@@ -13,15 +13,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* color: gray;
-  text-shadow: 0 0 2px white; */
+  text-shadow: 0 0 2px black;
+  color: beige !important;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-  /* font-size: 36px; */
 }
 
 .selected {
-  border-top: 1px black solid;
-  border-bottom: 1px black solid;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
 }
 
 /* card title text with ribbon transition on title */
@@ -31,6 +30,7 @@
   left: 0px;
   background-color: rgba(60, 60, 60, 0.8);
   color: #fffcf2;
+  border: 2px solid rgba(20, 20, 20, 0.8);
   border-radius: 0 10px 10px 0;
   transition: 0.3s;
 }

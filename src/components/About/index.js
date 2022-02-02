@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About(props) {
+export default function About() {
   return (
     <div className='section row my-1 mx-3'>
       <span className='gutter col-sm-12 col-md-2'></span>

@@ -3,7 +3,7 @@ import Navigation from "../Navigation/index.js";
 
 function Header({ navLinkDetails, selected, displayContent }) {
   return (
-    <nav className='header navbar navbar-expand-lg navbar-light bg-light'>
+    <nav className='header navbar navbar-expand-lg navbar-dark'>
       <div className='container-fluid'>
         <a className='navbar-brand fs-1' href='/'>
           Tom Bellenger

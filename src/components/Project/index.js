@@ -6,7 +6,7 @@ function Project({ projectDetails }) {
       <a href={projectDetails.link}>
         <div className='label'>
           <h3>{projectDetails.title}</h3>
-          <p>HTML/Bulma/JavaScript/AWS/JWT</p>
+          <p>{projectDetails.tech}</p>
           <p>{projectDetails.ghLink}</p>
         </div>
         <img
