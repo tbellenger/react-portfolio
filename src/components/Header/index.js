@@ -1,29 +1,11 @@
 import React from "react";
 import Navigation from "../Navigation/index.js";
 
-function Header() {
-  const navLinkDetails = [
-    {
-      name: "Home",
-      link: "/",
-    },
-    {
-      name: "Portfolio",
-      link: "/portfolio",
-    },
-    {
-      name: "Contact",
-      link: "/contact",
-    },
-    {
-      name: "Resume",
-      link: "/resume",
-    },
-  ];
+function Header({ navLinkDetails, selected, displayContent }) {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
-        <a className='navbar-brand' href='/'>
+        <a className='navbar-brand text-3xl font-bold underline' href='/'>
           Tom Bellenger
         </a>
         <button
@@ -40,7 +22,13 @@ function Header() {
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav'>
             {navLinkDetails.map((linkDetails, index) => (
-              <Navigation key={index} linkDetails={linkDetails} />
+              <Navigation
+                key={index}
+                linkDetails={linkDetails}
+                linkIndex={index}
+                selected={selected === index}
+                displayContent={displayContent}
+              />
             ))}
           </div>
         </div>

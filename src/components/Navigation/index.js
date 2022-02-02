@@ -1,10 +1,16 @@
 import React from "react";
 
-function Navigation(props) {
-  const { linkDetails } = props;
-
+function Navigation({ linkDetails, selected, displayContent, linkIndex }) {
   return (
-    <a className='nav-link' href={linkDetails.link}>
+    <a
+      className={`nav-link ${selected ? "selected" : ""}`}
+      href={linkDetails.link}
+      onClick={(e) => {
+        e.preventDefault();
+        window.location.hash = linkDetails.link;
+        displayContent(linkIndex);
+      }}
+    >
       {linkDetails.name}
     </a>
   );
