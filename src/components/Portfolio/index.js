@@ -4,6 +4,13 @@ import Project from "../Project/index.js";
 export default function Portfolio() {
   const projects = [
     {
+      title: "Tutor Central",
+      link: "https://tutor-central.herokuapp.com",
+      ghLink: "https://github.com/tbellenger/tutor-central-mern",
+      image: "tutor-central-ss.jpg",
+      tech: "HTML/CSS/React/Bootstrap/Node/Npm/JavaScript/AWS/Database/Heroku",
+    },
+    {
       title: "fixUp",
       link: "https://fixup-job.herokuapp.com",
       ghLink: "https://github.com/tbellenger/fixup-job-site-full-stack",
@@ -36,13 +43,6 @@ export default function Portfolio() {
       link: "https://tbellenger.github.io/sorting-visualizer/sortviz/",
       ghLink: "https://github.com/tbellenger/sorting-visualizer/",
       image: "sortviz.jpg",
-      tech: "HTML/CSS/JavaScript/",
-    },
-    {
-      title: "Placeholder",
-      link: "https://tbellenger.github.io/react-portfolio",
-      ghLink: "https://github.com/tbellenger/",
-      image: "placeholder.webp",
       tech: "HTML/CSS/JavaScript/",
     },
   ];
